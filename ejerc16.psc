@@ -1,10 +1,11 @@
 Algoritmo ejerc16
 	Definir num,x,n,sec Como Real
 	n=1;
-	Imprimir "se ingresará una serie numerica y se mostrará la suma de los números pares";
+	Imprimir "se ingresarÃ¡ una serie numerica y se mostrarÃ¡ la suma de los nÃºmeros pares";
 	Imprimir "";
-	Imprimir "¿cuantos números tendrá la serie?";
+	Imprimir "Â¿cuantos nÃºmeros tendrÃ¡ la serie?";
 	Leer sec;
+	Limpiar Pantalla
 	mientras n<=sec Hacer
 		Imprimir "escriba el numero ",n;
 		Leer num;
