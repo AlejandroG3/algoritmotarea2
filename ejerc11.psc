@@ -1,18 +1,19 @@
 Algoritmo ejerc11
 	Definir sec, may, x, num Como Real
 	x=1;
-	Imprimir "de una secuencia ingresada se mostrará el número con mayor valor ";
+	Imprimir "de una secuencia ingresada se mostrarÃ¡ el nÃºmero con mayor valor ";
 	Imprimir "";
-	Imprimir "ingrese cuantos números tendrá la la serie de ";
+	Imprimir "ingrese cuantos nÃºmeros tendrÃ¡ la la serie de ";
 	leer sec;
+	Limpiar Pantalla
 	Mientras x<=sec Hacer
-		Imprimir "ingrese el número ",x;
+		Imprimir "ingrese el nÃºmero ",x;
 		Leer num;
 		si num>may Entonces
 			may=num;
 		FinSi
 		x=x+1
 	FinMientras
-	Imprimir "el número mayor es: ",may;
+	Imprimir "el nÃºmero mayor es: ",may;
 	
 FinAlgoritmo
