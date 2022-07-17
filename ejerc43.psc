@@ -1,19 +1,18 @@
 Algoritmo ejerc43
-	Definir frase como cadena
+	Definir frase,reves como cadena
 	Definir x,n,q,pal Como Entero
-	Imprimir "se leer· la secuencia alfanumerica ingresada y se determinar· si es palindromo o no";
+	Imprimir "se leer√° la secuencia alfanumerica ingresada y se determinar√° si es palindromo o no";
 	Imprimir "";
 	Imprimir "ingrese la secuencia alfanumerica";
 	Leer frase
-	para n=Longitud(frase) Hasta 0 Con Paso -1 Hacer
+	para n=1 Hasta Longitud(frase) Con Paso 1 Hacer
 		si Subcadena(frase,n,n)<>" " Entonces
 			alm=alm+Subcadena(frase,n,n);
 		FinSi
 	FinPara
-	Para x=0 Hasta Longitud(frase) Con Paso 1 Hacer
-		si Subcadena(frase,n,n)<>" " Entonces
-			reves=reves+Subcadena(alm,q,q);
-			q=q+1;
+	Para n=Longitud(alm) Hasta 1 Con Paso -1 Hacer
+		si Subcadena(alm,n,n)<>" " Entonces
+			reves=reves+Subcadena(alm,n,n);
 		SiNo
 			reves=reves+Subcadena(frase,n,n);
 		FinSi
